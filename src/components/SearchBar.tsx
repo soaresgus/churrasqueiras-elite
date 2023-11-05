@@ -6,7 +6,7 @@ const poppins = Poppins({ subsets: ['latin'], weight: ['400'] });
 
 export function SearchBar() {
   return (
-    <div className=" rounded-[4px] bg-[#f5f5f5] w-[243px] flex items-center justify-between pr-3">
+    <div className=" rounded-[4px] bg-[#f5f5f5] w-full xl:w-[243px] flex items-center justify-between pr-3">
       <input
         type="text"
         placeholder="O que você procura"

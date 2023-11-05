@@ -7,6 +7,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import { Header } from '@/components/Header';
 import { PromotionBarWithFirebase } from '@/components/PromotionBarWithFirebase';
 import { Line } from '@/components/Line';
+import Head from 'next/head';
 config.autoAddCss = false;
 
 const inter = Inter({ subsets: ['latin'] });
@@ -208,7 +209,7 @@ export default function RootLayout({
       <body className={`${inter.className} w-screen h-screen bg-white`}>
         <PromotionBarWithFirebase />
         <div>
-          <div className="my-5 px-body">
+          <div className="my-5 xl:px-body px-8">
             <Header />
           </div>
           <Line height="1px" width="100%" />

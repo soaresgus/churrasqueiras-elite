@@ -9,7 +9,7 @@ export function PromotionBar({ children }: PromotionBarProps) {
   return (
     <div
       className={clsx(
-        'bg-black text-text-primary w-full items-center text-center d-flex justify-center py-3',
+        'bg-black text-text-primary w-full items-center text-center d-flex justify-center py-3 px-2',
         {
           hidden: children === undefined,
         }
