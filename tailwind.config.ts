@@ -75,6 +75,16 @@ const config: Config = {
       },
       padding: {
         body: '135px'
+      },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'translateX(0px)' },
+          '25%': { transform: 'translateX(1.5px)' },
+          '75%': { transform: 'translateX(-1.5px)' },
+        }
+      },
+      animation: {
+        wiggle: 'wiggle 0.6s ease-in-out infinite'
       }
     },
   },

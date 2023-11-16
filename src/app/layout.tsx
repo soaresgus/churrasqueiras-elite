@@ -213,7 +213,7 @@ export default function RootLayout({
             <Header />
           </div>
           <Line height="1px" width="100%" />
-          {children}
+          <main className="xl:px-body px-8">{children}</main>
         </div>
       </body>
     </html>

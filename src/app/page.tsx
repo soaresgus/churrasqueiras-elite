@@ -1,6 +1,11 @@
-import { Header } from '@/components/Header';
-import { PromotionBarWithFirebase } from '@/components/PromotionBarWithFirebase';
+import { BannerCarousel } from '@/components/BannerCarousel';
+import { Categories } from '@/components/Categories';
 
 export default function Home() {
-  return <></>;
+  return (
+    <section className="flex">
+      <Categories />
+      <BannerCarousel />
+    </section>
+  );
 }
